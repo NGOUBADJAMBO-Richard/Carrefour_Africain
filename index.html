@@ -336,30 +336,12 @@
       class="container-fluid search-bar position-relative"
       style="top: -50%; transform: translateY(-50%)"
     >
-      <div class="container">
-        <div
-          class="position-relative rounded-pill w-100 mx-auto p-5"
-          style="background: rgba(19, 53, 123, 0.8)"
-        >
-          <input
-            class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5"
-            type="text"
-            placeholder="Ex: Carrefour Africain..."
-          />
-          <button
-            type="button"
-            class="btn btn-primary rounded-pill py-2 px-4 position-absolute me-2"
-            style="top: 50%; right: 46px; transform: translateY(-50%)"
-          >
-            Rechercher
-          </button>
-        </div>
-      </div>
+      /
     </div>
     <!-- Navbar & Hero End -->
 
     <!-- Presentation Start -->
-    <div id="presentation" class="container-fluid">
+    <div class="container-fluid py-5">
       <div class="container text-center">
         <div class="row g-5 align-items-center">
           <div
@@ -413,7 +395,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-4">
+              <div class="col-md-4 mb-4 justify-content-between">
                 <div class="card h-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -457,12 +439,20 @@
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <img src="./img/Akwa-group.jpg" class="img-thumbnail" alt="..." />
+              <img
+                src="./img/Akwa-group.jpg"
+                class="img-thumbnail"
+                width="200"
+                height="100"
+                alt="..."
+              />
             </div>
             <div class="col">
               <img
                 src="./img/Vinci-energies.png"
                 class="img-thumbnail"
+                width="200"
+                height="90"
                 alt="..."
               />
             </div>
@@ -473,15 +463,45 @@
     <!-- Subscribe End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid footer py-5">
+    <div
+      class="container-fluid footer py-5 text-center d-flex flex-column justify-content-center"
+    >
       <div class="container py-5">
         <div class="row g-5">
-          <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="footer-item d-flex flex-column">
-              <h4 class="mb-4 text-white">Entrer en contact</h4>
-              <a href=""
-                ><i class="fas fa-home me-2"></i> Rabat Agdal 10000 - Maroc</a
+              <h4 class="mb-4 text-light">A PROPOS</h4>
+              <p class="card-text text-light">
+                Carrefour Africain est un véritable lieu d'échange entre les
+                entreprises, les jeunes diplômés et les cadres expérimentés, le
+                forum permet aux acteurs économiques marocains et africains de
+                rencontrer les meilleurs candidats en termes de formation, de
+                compétence et de connaissance de l'environnement africain.
+              </p>
+              <!-- <a href=""><i class="fas fa-angle-right me-2"></i> Magazine</a> -->
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xl-4">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="mb-4 text-white">LIENS UTILS</h4>
+
+              <a href="subscribe.html"
+                ><i class="fas fa-angle-right me-2"></i> Je m'inscris</a
               >
+              <a href="espaces.html"
+                ><i class="fas fa-angle-right me-2"></i> Les espaces</a
+              >
+              <a href="contact.html"
+                ><i class="fas fa-angle-right me-2"></i> Nous contacter</a
+              >
+              <!-- <a href=""><i class="fas fa-angle-right me-2"></i> Magazine</a> -->
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="mb-4 text-white">SUIVEZ-NOUS</h4>
+
               <a href="mailto:info@carrefourafricain.com"
                 ><i class="fas fa-envelope me-2"></i>
                 info@carrefourafricain.com</a
@@ -490,13 +510,7 @@
                 ><i class="fas fa-phone me-2"></i> +212 6 65 19 55 99</a
               >
               <!-- <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a> -->
-              <div class="d-flex align-items-center">
-                <i class="fas fa-share fa-2x text-white me-2"></i>
-                <a
-                  class="btn-square btn btn-primary rounded-circle mx-1"
-                  href="www.facebook.com/pages/Carrefour-Africain-Casablanca-2015/1453615261525899"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
+              <div class="d-flex align-items-center justify-content-center">
                 <a
                   class="btn-square btn btn-primary rounded-circle mx-1"
                   href="twitter.com/Carrefour_Afric"
@@ -505,103 +519,11 @@
                 <a
                   class="btn-square btn btn-primary rounded-circle mx-1"
                   href="www.linkedin.com/company/11009331/"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="footer-item d-flex flex-column">
-              <h4 class="mb-4 text-white">Entreprise</h4>
-              <a href="presentation.html"
-                ><i class="fas fa-angle-right me-2"></i> Présentation</a
-              >
-              <a href="organisateur.html"
-                ><i class="fas fa-angle-right me-2"></i> Organisateur</a
-              >
-              <a href="espaces.html"
-                ><i class="fas fa-angle-right me-2"></i> Les espaces</a
-              >
-              <a href="programme.html"
-                ><i class="fas fa-angle-right me-2"></i> Programme</a
-              >
-              <a href=""
-                ><i class="fas fa-angle-right me-2"></i> Informations
-                pratiques</a
-              >
-              <!-- <a href=""><i class="fas fa-angle-right me-2"></i> Magazine</a> -->
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="footer-item d-flex flex-column">
-              <h4 class="mb-4 text-white">Soutien</h4>
-              <a href="contact.html"
-                ><i class="fas fa-angle-right me-2"></i> Contact</a
-              >
-              <a href="exposer.html"
-                ><i class="fas fa-angle-right me-2"></i> Exposer</a
-              >
-              <a href="communiquer.html"
-                ><i class="fas fa-angle-right me-2"></i> Communqué de Presse</a
-              >
-              <a href="partenaire.html"
-                ><i class="fas fa-angle-right me-2"></i> Partenaires</a
-              >
-              <a href=""><i class="fas fa-angle-right me-2"></i> Mediathèque</a>
-              <a href="recruter.html"
-                ><i class="fas fa-angle-right me-2"></i> Recruter</a
-              >
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="footer-item">
-              <div class="row gy-3 gx-2 mb-4">
-                <div class="col-xl-6">
-                  <form>
-                    <div class="form-floating">
-                      <select class="form-select bg-dark border" id="select1">
-                        <option value="1">Arabic</option>
-                        <option value="2">German</option>
-                        <option value="3">Greek</option>
-                        <option value="3">New York</option>
-                      </select>
-                      <label for="select1">English</label>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-xl-6">
-                  <form>
-                    <div class="form-floating">
-                      <select class="form-select bg-dark border" id="select1">
-                        <option value="1">USD</option>
-                        <option value="2">EUR</option>
-                        <option value="3">INR</option>
-                        <option value="3">GBP</option>
-                      </select>
-                      <label for="select1">$</label>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <h4 class="text-white mb-3">Payments</h4>
-              <div class="footer-bank-card">
-                <a href="#" class="text-white me-2"
-                  ><i class="fab fa-cc-amex fa-2x"></i
-                ></a>
-                <a href="#" class="text-white me-2"
-                  ><i class="fab fa-cc-visa fa-2x"></i
-                ></a>
-                <a href="#" class="text-white me-2"
-                  ><i class="fas fa-credit-card fa-2x"></i
-                ></a>
-                <a href="#" class="text-white me-2"
-                  ><i class="fab fa-cc-mastercard fa-2x"></i
-                ></a>
-                <a href="#" class="text-white me-2"
-                  ><i class="fab fa-cc-paypal fa-2x"></i
-                ></a>
-                <a href="#" class="text-white"
-                  ><i class="fab fa-cc-discover fa-2x"></i
+                  ><i class="fab fa-linkedin-in"></i></a
+                ><a
+                  class="btn-square btn btn-primary rounded-circle mx-1"
+                  href="www.facebook.com/pages/Carrefour-Africain-Casablanca-2015/1453615261525899"
+                  ><i class="fab fa-facebook-f"></i
                 ></a>
               </div>
             </div>
@@ -614,20 +536,9 @@
     <!-- Copyright Start -->
     <div class="container-fluid copyright text-body py-4">
       <div class="container">
-        <div class="row g-4 align-items-center">
-          <div class="col-md-6 text-center text-md-end mb-md-0">
-            <i class="fas fa-copyright me-2"></i
-            ><a class="text-white" href="#">Carrefour Africain 2024</a>, Tout
-            droit réservé.
-          </div>
-          <div class="col-md-6 text-center text-md-start">
-            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-            Designed By
-            <a class="text-white" href="https://htmlcodex.com">HTML Codex</a>
-            Distributed By <a href="https://themewagon.com">ThemeWagon</a>
-          </div>
+        <div class="text-center mb-md-0">
+          <i class="fas fa-copyright me-2"></i
+          ><a class="text-white" href="#">Copyrights Carrefour Africain 2024</a>
         </div>
       </div>
     </div>
