@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Carrefour Africain</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">En cours...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+      <div class="row gx-0">
+        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-twitter fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-facebook-f fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-linkedin-in fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=""
+              ><i class="fab fa-instagram fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+              href=""
+              ><i class="fab fa-youtube fw-normal"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <a href="subscribe.html"
+              ><small class="me-3 text-light"
+                ><i class="fa fa-user me-2"></i>Inscription</small
+              ></a
+            >
+            <a href="#"
+              ><small class="me-3 text-light"
+                ><i class="fa fa-sign-in-alt me-2"></i>Connexion</small
+              ></a
+            >
+            <div class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle text-light"
+                data-bs-toggle="dropdown"
+                ><small
+                  ><i class="fa fa-home me-2"></i>Mon tableau de bord</small
+                ></a
+              >
+              <div class="dropdown-menu rounded">
+                <a href="#" class="dropdown-item"
+                  ><i class="fas fa-user-alt me-2"></i>Mon profil</a
+                >
+                <a href="#" class="dropdown-item"
+                  ><i class="fas fa-comment-alt me-2"></i>Chat</a
+                >
+                <a href="#" class="dropdown-item"
+                  ><i class="fas fa-bell me-2"></i> Notifications</a
+                >
+                <a href="#" class="dropdown-item"
+                  ><i class="fas fa-cog me-2"></i>Parametre de compte</a
+                >
+                <a href="#" class="dropdown-item"
+                  ><i class="fas fa-power-off me-2"></i>Deconnexion</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="" class="navbar-brand p-0">
+          <h1 class="m-0">
+            <i class="fa fa-map-marker-alt me-3"></i>Carrefour Africain
+          </h1>
+          <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Accueil</a>
+
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Initiative</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="#presentation" class="dropdown-item">Présentation</a>
+                <a href="#organisateur" class="dropdown-item">Organisateur</a>
+                <a href="#espaces" class="dropdown-item">Les espaces</a>
+              </div>
+            </div>
+
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Visiter</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="subscribe.html" class="dropdown-item">Inscription</a>
+                <a href="#programme" class="dropdown-item">Programme</a>
+                <a href="#information" class="dropdown-item"
+                  >Informations pratiques</a
+                >
+              </div>
+            </div>
+
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Entreprises</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="exposer.html" class="dropdown-item">Exposer</a>
+                <a href="#cvtheque" class="dropdown-item">Accès CVthèque</a>
+                <a href="recruter.html" class="dropdown-item">Reruter</a>
+              </div>
+            </div>
+
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Presse et media</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="communiquer.html" class="dropdown-item"
+                  >Communiqué de presse</a
+                >
+                <a href="revue.html" class="dropdown-item">Revue de presse</a>
+                <a href="#" class="dropdown-item">Médiathèque</a>
+              </div>
+            </div>
+
+            <a href="#" class="nav-item nav-link">Partenaires</a>
+
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Book Now</a> -->
+        </div>
+      </nav>
+      <!-- Navbar & Hero End -->
+
+      <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4">Revue de presse</h1>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item"><a href="#">Presse et media</a></li>
+                    <li class="breadcrumb-item active text-white">Revue de presse</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Revue de presse Start -->
+        <div class="container-fluid booking py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h5 class="section-booking-title pe-3">Revue de Presse</h5>
+                        <h1><a class="text-primary-hover text-light mb-4" href="https://carrefourafricain.com/index.php/node/111">Emploi Carrefour Africain: La 4e édition à Abidjan le 1 Juillet 2018, plus de 100 postes à pourvoir</a></h1>
+                        <p class="text-white mb-4">La 4e édition du forum pour l’emploi «Carrefour Africain» se tiendra le 1 Juillet 2018, à Abidjan. Et plus de 100 postes sont à pourvoir dans une dizaine d’entreprises marocaines et internationales. «Carrefour Africain vous donne rendez-vous le dimanche 1 Juillet 2018, au Novotel Abidjan. (…) Carrefour Africain sera l’occasion d’échanges riches et conviviaux entre […]
+                        </p>
+                        <a href="https://carrefourafricain.com/index.php/taxonomy/term/17" class="btn btn-light text-primary rounded-pill py-3 px-5 mt-2">PRESSE</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1><a class="text-primary-hover text-light mb-4" href="https://carrefourafricain.com/index.php/node/110">
+                        Côte d’Ivoire : une centaine de postes à pourvoir en avril lors d’un salon à Abidjan</a></h1>
+                        <p class="text-white mb-4">La quatrième édition du forum pour l’emploi Carrefour Africain aura lieu le 15 avril prochain à Abidjan, en Côte d’Ivoire. Plus de 100 postes sont à pourvoir dans une dizaine d’entreprises locales et internationales. Savoir plus </p>
+                        <a href="https://carrefourafricain.com/index.php/taxonomy/term/17" class="btn btn-light text-primary rounded-pill py-3 px-5 mt-2">PRESSE</a>
+                    </div>
+                     <div class="col-lg-6">
+                        <h1><a class="text-primary-hover text-light mb-4" href="https://carrefourafricain.com/index.php/node/110">
+                        «Carrefour africain» à la recherche de talents subsahariens</a></h1>
+                        <p class="text-white mb-4">Une centaine de profils déjà recrutés par des entreprises marocaines et internationales Une journée spécial recrutement en Afrique vient d’être organisée à l’occasion de la journée internationale des migrants par le «Carrefour africain» à Casablanca. L’événement qui vise à concrétiser le partenariat de développement Sud-Sud entend faciliter le recrutement des talents issus de l’Afrique subsaharienne. […]</p>
+                        <a href="https://carrefourafricain.com/index.php/taxonomy/term/17" class="btn btn-light text-primary rounded-pill py-3 px-5 mt-2">PRESSE</a>
+                    </div>
+                     <div class="col-lg-6">
+                        <h1><a class="text-primary-hover text-light mb-4" href="https://carrefourafricain.com/index.php/node/108">
+                        JOURNEE INTERNATIONALE DES MIGRANTS : « CARREFOUR AFRICAIN » une journée spéciale recrutement pour l’Afrique</a></h1>
+                        <p class="text-white mb-4">A l’occasion de la journée internationale des migrants, le ‘’Carrefour Africain’’ a organisé lundi 17 décembre à Casablanca une journée spécifique pour le recrutement en Afrique et ce, dans le cadre d’un partenariat de développement Sud-Sud. Précurseur depuis plus de 4 ans dans le domaine de l’intégration des nouveaux immigrants et des étudiants issus des […]</p>
+                        <a href="https://carrefourafricain.com/index.php/taxonomy/term/17" class="btn btn-light text-primary rounded-pill py-3 px-5 mt-2">PRESSE</a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h1><a class="text-primary-hover text-light mb-4" href="https://carrefourafricain.com/index.php/node/107">
+                        ECONOMIE Journée internationale des migrants Plus de 200 postes à la clé lors du dernier Carrefour Africain</a></h1>
+                        <p class="text-white mb-4">Le Carrefour Africain a organisé, lundi à Casablanca, une journée spécifique pour le recrutement en Afrique. La rencontre a connu la participation d’entreprises des secteurs du BTP, de la banque et finances, des services, des technologies de l’information et des services. A la clé plus de 200 postes à pourvoir au Maroc et dans leurs […]</p>
+                        <a href="https://carrefourafricain.com/index.php/taxonomy/term/17" class="btn btn-light text-primary rounded-pill py-3 px-5 mt-2">PRESSE</a>
+                    </div>
+
+                    <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Revue de presse End -->
+
+         <!-- Subscribe Start -->
+        <div class="container-fluid subscribe py-5">
+            <div class="container text-center py-5">
+                <div class="mx-auto text-center" style="max-width: 900px;">
+                    <h5 class="subscribe-title px-3">Subscribe</h5>
+                    <h1 class="text-white mb-4">Our Newsletter</h1>
+                    <p class="text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.
+                    </p>
+                    <div class="position-relative mx-auto">
+                        <input class="form-control border-primary rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Subscribe End -->
+
+                <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Entrer en contact</h4>
+                            <a href=""><i class="fas fa-home me-2"></i> Rabat Agdal 10000 - Maroc</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> info@carrefourafricain.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> +212 6 65 19 55 99</a>
+                            <!-- <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a> -->
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-white me-2"></i>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Entreprise</h4>
+                            <a href="presentation.html"><i class="fas fa-angle-right me-2"></i> Présentation</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Organisateur</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Les espaces</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Programme</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Informations pratiques</a>
+                            <!-- <a href=""><i class="fas fa-angle-right me-2"></i> Magazine</a> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Soutien</h4>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Exposer</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Communqué de Presse</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Partenaires</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Mediathèque</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Recruter</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <div class="row gy-3 gx-2 mb-4">
+                                <div class="col-xl-6">
+                                    <form>
+                                        <div class="form-floating">
+                                            <select class="form-select bg-dark border" id="select1">
+                                                <option value="1">Arabic</option>
+                                                <option value="2">German</option>
+                                                <option value="3">Greek</option>
+                                                <option value="3">New York</option>
+                                            </select>
+                                            <label for="select1">English</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-xl-6">
+                                    <form>
+                                        <div class="form-floating">
+                                            <select class="form-select bg-dark border" id="select1">
+                                                <option value="1">USD</option>
+                                                <option value="2">EUR</option>
+                                                <option value="3">INR</option>
+                                                <option value="3">GBP</option>
+                                            </select>
+                                            <label for="select1">$</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <h4 class="text-white mb-3">Payments</h4>
+                            <div class="footer-bank-card">
+                                <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                                <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright text-body py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-end mb-md-0">
+                        <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Carrefour Africain 2024</a>, Tout droit réservé.
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
